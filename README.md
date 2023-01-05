@@ -1,6 +1,6 @@
 # Pay with Rewardadz api - Beta
 
-- to get started create an account at https://live.rewardadz.com/auth/registration
+- to get started create an account at [Rewardadz](https://live.rewardadz.com/auth/registration)
 - once logged in navigate to settings > api and get your api key
 
 ### Available Apis(Request and Responses)
@@ -118,7 +118,7 @@ async function pay_with_ra(
             }
             ```
 
-  confirming payments API (`{{base_url}}/ra/v1/api/confirm/payments`) `POST`
+2: Confirming payments API (`{{base_url}}/ra/v1/api/confirm/payments`) `POST`
   <br />
   The above api take the following parameters
   <br/>
