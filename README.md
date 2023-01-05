@@ -4,7 +4,7 @@
 - once logged in navigate to settings > api and get your api key
 
 ### Available Apis(Request and Responses)
-1: Initiating payement api (`{{base_url}}/ra/v1/api/pay/with/ra`) `POST`
+1: Initiating payement api (`{{base_url}}/app/ra/v1/api/pay/with/ra`) `POST`
 <br/>
 This above api requires the following parameters
 <br />
@@ -49,7 +49,7 @@ async function pay_with_ra(
   const headers = { "ra-api-key": api_key };
   try {
     const pay = await axios.post(
-      `${base_url}` + "/ra/v1/api/pay/with/ra",
+      `${base_url}` + "/app/ra/v1/api/pay/with/ra",
       data,
       { headers }
     );
@@ -118,7 +118,7 @@ async function pay_with_ra(
             }
             ```
 
-2: Confirming payments API (`{{base_url}}/ra/v1/api/confirm/payments`) `POST`
+2: Confirming payments API (`{{base_url}}/app/ra/v1/api/confirm/payments`) `POST`
   <br />
   The above api take the following parameters
   <br/>
@@ -150,7 +150,7 @@ async function pay_with_ra(
   const data = { phone, otp };
   try {
     const confirm = await axios.post(
-      `${base_url}` + "/ra/v1/api/confirm/payments",
+      `${base_url}` + "/app/ra/v1/api/confirm/payments",
       data
     );
     return confirm;
