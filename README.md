@@ -125,6 +125,7 @@ async function pay_with_ra(
   ***BODY PARAM***
   - Phone number of the user `string` example `"+254700000000"`
   - OTP which is send to the user phone number `number` example  `123456`
+  </br>
   
   ### example
   ```js
