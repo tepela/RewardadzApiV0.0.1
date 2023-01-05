@@ -126,7 +126,8 @@ async function pay_with_ra(
   - Phone number of the user `string` example `"+254700000000"`
   - OTP which is send to the user phone number `number` example  `123456`
   
-  ### example
+  #### example
+  
   ```js
     app.post("/confirm", async (req: Request, res: Response): Promise<object> => {
     const { phone, otp } = req.body;
@@ -183,9 +184,11 @@ async function pay_with_ra(
           }
       }
      ```
+<br/>
 Then the transaction data is send to the callback url provided when initiating the payements
 <br/>
 below is the example of a callback route
+
 ```js
  app.post("/callback", (req: Request, res: Response): void => {
    const data = req.body
