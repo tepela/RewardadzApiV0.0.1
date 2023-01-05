@@ -126,7 +126,7 @@ async function pay_with_ra(
   - Phone number of the user `string` example `"+254700000000"`
   - OTP which is send to the user phone number `number` example  `123456`
   
-  #### example
+  ### example
   ```js
     app.post("/confirm", async (req: Request, res: Response): Promise<object> => {
     const { phone, otp } = req.body;
@@ -172,7 +172,7 @@ async function pay_with_ra(
     }
     ```
  - Valid OTP `200`
-   - sampale
+   - sample
      ```json
        {
           "sucess": true,
