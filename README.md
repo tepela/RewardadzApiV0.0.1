@@ -4,7 +4,7 @@
 - once logged in navigate to settings > api and get your api key
 
 ### Available Apis(Request and Responses)
-1: Initiating payement api (`{{base_url}}/app/ra/v1/api/pay/with/ra`) `POST`
+1: Initiating payement api (`{{base_url}}/app/ra/v1/api/pay) `POST`
 <br/>
 This above api requires the following parameters
 <br />
