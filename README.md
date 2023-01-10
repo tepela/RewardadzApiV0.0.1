@@ -49,7 +49,7 @@ async function pay_with_ra(
   const headers = { "ra-api-key": api_key };
   try {
     const pay = await axios.post(
-      `${base_url}` + "/app/ra/v1/api/pay/with/ra",
+      `${base_url}` + "/app/ra/v1/api/pay",
       data,
       { headers }
     );
