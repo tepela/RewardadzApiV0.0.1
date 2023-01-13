@@ -1,6 +1,6 @@
 # Pay with Rewardadz api - Beta
 
-- to get started create an account at [Rewardadz](https://live.rewardadz.com/auth/registration)
+- to get started create an account at [Rewardadz](https://demo.rewardadz.com/auth/registration)
 - once logged in navigate to settings > api and get your api key
 
 ### Available Apis(Request and Responses)
